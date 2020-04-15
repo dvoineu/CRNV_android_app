@@ -1,0 +1,541 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+<!--         Customize your theme here. -->
+        <item name="colorPrimary">@color/light_green_main</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorBlack</item>
+        <item name="android:textColor">@color/light_green_main</item>
+    </style>
+
+    <style name="TextStyleMedium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorBlack</item>
+    </style>
+
+    <style name="BaseCardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_small</item>
+        <item name="android:layout_marginEnd">@dimen/margin_small</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+    </style>
+
+    <style name="BackButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_arrow_back_24dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">@dimen/padding_large</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+    </style>
+
+    <style name="BackButtonParallaxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_arrow_white_24dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">@dimen/padding_large</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+    </style>
+    <style name="ProfileAvatarStyle">
+        <item name="android:layout_width">@dimen/profile_avatar_size</item>
+        <item name="android:layout_height">@dimen/profile_avatar_size</item>
+    </style>
+
+    <style name="ItemTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="ToggleTextStyle" parent="ItemTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="MenuItemTextStyle" parent="ItemTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginEnd">@dimen/margin_extra_large</item>
+    </style>
+
+    <style name="SubMenuItemTextStyle" parent="ItemTextStyle">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:padding">@dimen/padding_extra_large</item>
+    </style>
+
+    <style name="MenuIconStyle">
+        <item name="android:layout_width">@dimen/avatar_size_large</item>
+        <item name="android:layout_height">@dimen/avatar_size_large</item>
+        <item name="android:contentDescription">@string/image_desc_icon</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_large</item>
+    </style>
+
+    <style name="ItemIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="MainToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/main_toolbar_height</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="ToolbarTitleStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_size_extra_large</item>
+        <item name="android:letterSpacing">.0</item>
+        <item name="android:paddingEnd">@dimen/padding_normal</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="ToolbarTitleParallaxStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:letterSpacing">.1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BuyNowButtonStyle">
+        <item name="android:background">@drawable/rounded_button_white</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:elevation">@dimen/elevation_small</item>
+        <item name="android:layout_marginEnd">@dimen/margin_normal</item>
+    </style>
+
+    <style name="BuyNowNavigationButtonStyle" parent="BuyNowButtonStyle">
+        <item name="android:background">@drawable/rounded_button_navigation</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">@dimen/navigation_toolbar_button_width</item>
+        <item name="android:layout_height">@dimen/navigation_toolbar_button_height</item>
+        <item name="android:layout_marginStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:text">@string/navigation_buy_now</item>
+    </style>
+
+    <style name="BuyNowToolbarButtonStyle" parent="BuyNowButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/main_toolbar_button_height</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:text">@string/navigation_buy_now</item>
+    </style>
+
+
+
+
+    <style name="TextStyleLight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="TextStyleDragSwipeExpandChildItem" parent="TextStyleLight">
+        <item name="android:textColor">@color/backgroundColorWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="ItemTitleStyle"  parent="TextStyleLight">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="GalleryItemTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_extra_large</item>
+    </style>
+
+    <style name="DropDownTitleStyle"  parent="ItemTitleStyle">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="ItemSubTitleStyle"  parent="TextStyleLight">
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="DropDownSubTitleStyle"  parent="TextStyleLight">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="ParallaxHeaderActiveTitleStyle"  parent="TextStyleLight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:paddingStart">@dimen/padding_extra_large</item>
+        <item name="android:paddingEnd">@dimen/padding_extra_large</item>
+        <item name="android:paddingBottom">@dimen/padding_extra_large</item>
+    </style>
+
+    <style name="ParallaxHeaderSubtitleStyle"  parent="TextStyleLight">
+        <item name="android:textColor">@color/colorTextGrayLighter</item>
+        <item name="android:padding">@dimen/padding_extra_large</item>
+    </style>
+
+    <style name="ParallaxTextDescStyle"  parent="ItemSubTitleStyle">
+        <item name="android:paddingStart">@dimen/padding_extra_large</item>
+        <item name="android:paddingEnd">@dimen/padding_extra_large</item>
+        <item name="android:paddingBottom">@dimen/padding_extra_large</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="DraggableIconParentStyle">
+        <item name="android:layout_width">@dimen/draggable_icon_parent_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="DraggableIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginEnd">@dimen/draggable_icon_end_margin</item>
+        <item name="android:layout_marginTop">@dimen/draggable_icon_margin</item>
+        <item name="android:layout_marginBottom">@dimen/draggable_icon_margin</item>
+    </style>
+
+    <style name="ItemBigTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_navigation_title</item>
+        <item name="android:layout_marginStart">@dimen/margin_ultra_large</item>
+        <item name="android:layout_marginEnd">@dimen/margin_ultra_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_ultra_large</item>
+    </style>
+
+    <style name="CardProfileTextDividerStyle">
+        <item name="android:layout_width">@dimen/card_profile_divider_width</item>
+        <item name="android:layout_height">@dimen/card_profile_divider_height</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="FollowItemAvatarStyle">
+        <item name="android:layout_width">@dimen/avatar_size_extra_large</item>
+        <item name="android:layout_height">@dimen/avatar_size_extra_large</item>
+    </style>
+
+    <style name="FollowButtonStyle">
+        <item name="android:layout_width">@dimen/navigation_toolbar_button_width</item>
+        <item name="android:layout_height">@dimen/navigation_toolbar_button_height</item>
+        <item name="android:background">@drawable/rounded_button_white</item>
+        <item name="android:text">@string/card_follow_follow</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="AddAsFriendButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/navigation_toolbar_button_height</item>
+        <item name="android:background">@drawable/side_nav_bar</item>
+        <item name="android:text">@string/add_as_friend</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_marginStart">@dimen/margin_normal</item>
+        <item name="android:layout_marginTop">@dimen/margin_normal</item>
+        <item name="android:layout_marginEnd">@dimen/margin_normal</item>
+        <item name="android:elevation">@dimen/elevation_extra_small</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="NavigationTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_drawer_title</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_extra_large</item>
+    </style>
+
+    <style name="NavigationClickableTextStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/navigation_toolbar_button_height</item>
+        <item name="android:layout_marginStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="DialogTitleStyle" parent="ItemTextStyle">
+        <item name="android:textSize">@dimen/text_size_navigation_title</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="TextStyleGrayLighter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/colorTextGrayLighter</item>
+    </style>
+
+    <style name="TextStyleGray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/colorTextGrey</item>
+    </style>
+
+    <style name="CancelDialogTextStyle" parent="TextStyleGray">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_extra_large</item>
+    </style>
+
+    <style name="MainButtonStyle">
+        <item name="android:layout_width">@dimen/dialog_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/padding_extra_large</item>
+        <item name="android:paddingEnd">@dimen/padding_extra_large</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:background">@drawable/rounded_button_white</item>
+    </style>
+
+    <style name="seekBarStyle" parent="AppTheme.NoActionBar">
+        <item name="colorAccent">@color/colorBlack</item>
+    </style>
+
+    <style name="ToggleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/toggle_switch_bg</item>
+        <item name="android:thumb">@android:color/transparent</item>
+        <item name="android:track">@android:color/transparent</item>
+        <item name="android:paddingStart">@dimen/padding_normal</item>
+    </style>
+
+    <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@style/ErrorText</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="HintText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+
+    <style name="SmallComponentsTheme" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/colorBlack</item>
+        <item name="android:textColorSecondary">@color/colorTextGrayLighter</item>
+    </style>
+
+    <style name="ParentListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/frame_list_parent_height</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="AvatarListStyle">
+        <item name="android:layout_width">@dimen/avatar_size_ultra_large</item>
+        <item name="android:layout_height">@dimen/avatar_size_ultra_large</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_extra_large</item>
+    </style>
+
+    <style name="ExpandableItemIndicatorStyle">
+        <item name="android:layout_width">@dimen/indicator_icon_size</item>
+        <item name="android:layout_height">@dimen/indicator_icon_size</item>
+        <item name="android:layout_marginEnd">@dimen/margin_extra_large</item>
+    </style>
+
+    <style name="SwipeParentStyle">
+        <item name="android:layout_width">@dimen/swipe_parent_width</item>
+        <item name="android:layout_height">@dimen/swipe_parent_height</item>
+        <item name="android:background">@color/colorBlack</item>
+    </style>
+
+
+    <style name="DialogInfoTextStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginEnd">@dimen/margin_ultra_large</item>
+        <item name="android:layout_marginStart">@dimen/margin_ultra_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_ultra_large</item>
+        <item name="android:letterSpacing">.14</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/colorTextGrey</item>
+    </style>
+
+    <style name="DialogInfoTitleStyle" parent="DialogTitleStyle">
+        <item name="android:layout_marginEnd">@dimen/margin_ultra_large</item>
+        <item name="android:layout_marginStart">@dimen/margin_ultra_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_normal</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="DialogInfoSubTitleStyle" parent="ItemSubTitleStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginEnd">@dimen/margin_ultra_large</item>
+        <item name="android:layout_marginStart">@dimen/margin_ultra_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_large</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="DialogInfoButtonStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/margin_ultra_large</item>
+        <item name="android:layout_marginStart">@dimen/margin_ultra_large</item>
+        <item name="android:background">@drawable/selector_dialog_warning</item>
+    </style>
+
+    <style name="DialogWarningTextStyle" parent="TextStyleMedium">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/margin_normal</item>
+        <item name="android:layout_marginEnd">@dimen/margin_normal</item>
+        <item name="android:layout_marginTop">@dimen/margin_ultra_large</item>
+        <item name="android:letterSpacing">.14</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="CardsOverHeaderTitleStyle" parent="TextStyleLight">
+        <item name="android:textColor">@color/backgroundColorWhite</item>
+        <item name="android:textSize">@dimen/text_size_drawer_title</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:padding">@dimen/padding_extra_large</item>
+    </style>
+
+    <style name="ParallaxHeaderTitleStyle" parent="TextStyleMedium">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/parallax_header</item>
+        <item name="android:textColor">@color/backgroundColorWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:padding">@dimen/padding_extra_large</item>
+    </style>
+
+    <style name="FloatingActionButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_margin">@dimen/margin_extra_extra_large</item>
+    </style>
+
+    <style name="LoginTitleStyle" parent="TextStyleLight">
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_drawer_title</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="LoginTextStyle" parent="TextStyleLight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:layout_marginEnd">@dimen/margin_small</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_large</item>
+    </style>
+
+    <style name="LoginTextStyleClickable" parent="TextStyleMedium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginEnd">@dimen/margin_small</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_large</item>
+    </style>
+
+    <style name="GalleryBottomTextStyle" parent="GalleryItemTitleStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+        <item name="android:letterSpacing">0.13</item>
+        <item name="android:gravity">start</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+    </style>
+
+    <style name="SearchEditTextStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:letterSpacing">0.25</item>
+        <item name="android:background">@drawable/search_box</item>
+        <item name="android:paddingStart">@dimen/padding_extra_large</item>
+        <item name="android:paddingEnd">@dimen/padding_extra_large</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">@string/search_placeholder</item>
+        <item name="android:textColorHint">@color/colorBlack</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:minHeight">@dimen/search_min_height</item>
+    </style>
+
+
+    <style name="WizardTitle" parent="TextStyleMedium">
+        <item name="android:gravity">start</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/text_size_drawer_title</item>
+    </style>
+
+    <style name="WizardSubTitle" parent="TextStyleMedium">
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+</resources>

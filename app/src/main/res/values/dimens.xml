@@ -1,0 +1,148 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">252dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="menu_small_icon">30dp</dimen>
+
+    <!-- Template -->
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_normal">24dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+    <dimen name="icon_size_extra_large">48dp</dimen>
+    <dimen name="icon_size_ultra_large">64dp</dimen>
+
+    <dimen name="avatar_size_small">16dp</dimen>
+    <dimen name="avatar_size_normal">24dp</dimen>
+    <dimen name="avatar_size_large">32dp</dimen>
+    <dimen name="avatar_size_extra_large">48dp</dimen>
+    <dimen name="avatar_size_ultra_large">80dp</dimen>
+    <dimen name="avatar_size_mega_large">96dp</dimen>
+
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_large">12dp</dimen>
+    <dimen name="margin_extra_large">16dp</dimen>
+    <dimen name="margin_extra_extra_large">24dp</dimen>
+    <dimen name="margin_ultra_large">32dp</dimen>
+    <dimen name="margin_ultra_larger">48dp</dimen>
+    <dimen name="margin_ultra_ultra_large">64dp</dimen>
+    <dimen name="margin_ultra_ultra_larger">80dp</dimen>
+
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_normal">8dp</dimen>
+    <dimen name="padding_large">12dp</dimen>
+    <dimen name="padding_extra_large">16dp</dimen>
+    <dimen name="padding_extra_larger">24dp</dimen>
+    <dimen name="padding_ultra_large">32dp</dimen>
+
+    <dimen name="text_size_small">8sp</dimen>
+    <dimen name="text_size_medium">10sp</dimen>
+    <dimen name="text_size_regular">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_extra_large">20sp</dimen>
+    <dimen name="text_size_toolbar_title">22sp</dimen>
+    <dimen name="text_size_navigation_title">26sp</dimen>
+    <dimen name="text_size_extra_extra_large">32sp</dimen>
+    <dimen name="text_size_ultra_large">36sp</dimen>
+    <dimen name="text_size_drawer_title">40sp</dimen>
+
+    <dimen name="letter_spacing_small">-0.10</dimen>
+    <dimen name="letter_spacing_medium">-0.15</dimen>
+    <dimen name="letter_spacing_normal">-0.17</dimen>
+    <dimen name="letter_spacing_large">-0.2</dimen>
+    <dimen name="letter_spacing_extra_large">-0.25</dimen>
+    <dimen name="letter_spacing_ultra_large">-0.5</dimen>
+
+    <dimen name="elevation_extra_small">2dp</dimen>
+    <dimen name="elevation_small">4dp</dimen>
+    <dimen name="elevation_normal">8dp</dimen>
+    <dimen name="elevation_large">12dp</dimen>
+    <dimen name="elevation_extra_large">16dp</dimen>
+    <dimen name="elevation_ultra_large">32dp</dimen>
+
+    <dimen name="card_radius_small">4dp</dimen>
+    <dimen name="card_radius_normal">8dp</dimen>
+    <dimen name="card_radius_large">12dp</dimen>
+    <dimen name="card_radius_extra_large">16dp</dimen>
+    <dimen name="card_radius_ultra_large">32dp</dimen>
+
+    <dimen name="card_width_tiny">36dp</dimen>
+    <dimen name="card_width_small">50dp</dimen>
+    <dimen name="card_width_normal">100dp</dimen>
+    <dimen name="card_width_regular">140dp</dimen>
+    <dimen name="card_width_large">180dp</dimen>
+    <dimen name="card_width_extra_large">220dp</dimen>
+    <dimen name="card_width_ultra_large">260dp</dimen>
+
+    <!--Navigation-->
+    <dimen name="main_toolbar_height">56dp</dimen>
+    <dimen name="navigation_item_height">80dp</dimen>
+    <dimen name="main_toolbar_button_width">65dp</dimen>
+    <dimen name="main_toolbar_button_height">31dp</dimen>
+    <dimen name="navigation_toolbar_button_width">122dp</dimen>
+    <dimen name="navigation_toolbar_button_height">40dp</dimen>
+
+    <!--Lists-->
+    <dimen name="list_item_height">64dp</dimen>
+    <dimen name="frame_list_parent_height">100dp</dimen>
+    <dimen name="draggable_icon_parent_width">54dp</dimen>
+    <dimen name="draggable_icon_margin">36dp</dimen>
+    <dimen name="draggable_icon_end_margin">20dp</dimen>
+    <dimen name="draggable_parent_end_margin">40dp</dimen>
+    <dimen name="indicator_icon_size">24dp</dimen>
+    <dimen name="swipe_parent_width">145dp</dimen>
+    <dimen name="swipe_parent_height">100dp</dimen>
+    <dimen name="drag_swipe_expand_parent_height">130dp</dimen>
+    <dimen name="drag_swipe_expand_child_height">128dp</dimen>
+    <dimen name="drag_swipe_expand_start_margin">74dp</dimen>
+    <dimen name="sub_menu_item_height">170dp</dimen>
+    <dimen name="profile_avatar_size">80dp</dimen>
+    <dimen name="item_details_card_height">275dp</dimen>
+
+    <!--Cards-->
+    <dimen name="card_profile_divider_width">1dp</dimen>
+    <dimen name="card_profile_divider_height">20dp</dimen>
+    <dimen name="card_rate_image_height">120dp</dimen>
+    <dimen name="card_location_parent_height">160dp</dimen>
+    <dimen name="info_dialog_width">320dp</dimen>
+
+    <!--Parallax-->
+    <dimen name="parallax_header_height">300dp</dimen>
+    <dimen name="cards_over_header_height">400dp</dimen>
+    <dimen name="header_active_appbar_height">250dp</dimen>
+
+    <!--Dialogs-->
+    <dimen name="dialog_warning_width">320dp</dimen>
+    <dimen name="dialog_warning_height">460dp</dimen>
+    <dimen name="dialog_warning_bg_height">140dp</dimen>
+    <dimen name="dialog_min_height">280dp</dimen>
+    <dimen name="dialog_button_width">120dp</dimen>
+
+    <!--Login/Register-->
+    <dimen name="login_input_margin_top">130dp</dimen>
+    <dimen name="login_register_margin_top">100dp</dimen>
+
+    <!--Search-->
+    <dimen name="search_min_height">40dp</dimen>
+
+    <!--Tabs-->
+    <dimen name="tab_header_height">130dp</dimen>
+    <dimen name="tab_padding_top">80dp</dimen>
+    <dimen name="tab_text_min_width">88dp</dimen>
+
+    <!--Progress bars-->
+    <dimen name="progress_bar_size">100dp</dimen>
+
+    <!--Image gallery-->
+    <dimen name="gallery_item_min_width">250dp</dimen>
+    <dimen name="gallery_item_bg_height">165dp</dimen>
+
+    <!--Wizards-->
+    <dimen name="margin_ultra_large_negative">-32dp</dimen>
+    <dimen name="wizard_icon_size">120dp</dimen>
+</resources>

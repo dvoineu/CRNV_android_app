@@ -1,0 +1,285 @@
+<resources>
+    <string name="app_name">Coronavirus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+
+    <!--Navigation-->
+    <string name="navigation_text1">HELLO \nTHERE, \nWELCOME.</string>
+    <string name="navigation_text2">Ready to drop in your app</string>
+    <string name="navigation_buy_now">BUY NOW</string>
+    <string name="navigation_documentation">DOCUMENTATION</string>
+
+    <!--Floating action button-->
+    <string name="fab_pressed">FAB Button pressed</string>
+
+    <!--ImageView content descriptions-->
+    <string name="image_desc_icon">Icon</string>
+    <string name="image_desc_avatar">Avatar</string>
+
+    <!--Splash screen-->
+    <string name="splash_welcome">Welcome!</string>
+    <string name="splash_screen_title_1">Fade in + Ken Burns</string>
+    <string name="splash_screen_title_2">Down + Ken Burns</string>
+    <string name="splash_screen_title_3">Down + fade in + Ken Burns</string>
+
+    <!--Left menu viewItems-->
+    <string name="left_menu_expandable">EXPANDABLE</string>
+    <string name="left_menu_drag_and_drop">DRAG &amp; DROP</string>
+    <string name="left_menu_swipe">SWIPE</string>
+    <string name="left_menu_swipe_to_dismiss">SWIPE TO DISMISS</string>
+    <string name="left_menu_swipe_drag_expand">SWIPE &amp; DRAG &amp; EXPAND</string>
+    <string name="left_menu_item_details">ITEM DETAILS</string>
+    <string name="left_menu_list">LISTS</string>
+    <string name="left_menu_rate">LOCATIONS</string>
+    <string name="left_menu_follow">FOLLOW</string>
+    <string name="left_menu_profile">PROFILE</string>
+    <string name="left_menu_cards">CARDS</string>
+    <string name="left_menu_header">HEADER</string>
+    <string name="left_menu_cards_over_header">CARDS OVER HEADER</string>
+    <string name="left_menu_cards_header_active">HEADER ACTIVE</string>
+    <string name="left_menu_parallax">PARALLAX</string>
+    <string name="left_menu_line_indicator">LINE INDICATOR</string>
+    <string name="left_menu_round_indicator">ROUND INDICATOR</string>
+    <string name="left_menu_tabs">TABS</string>
+    <string name="left_menu_on_boarding_wizard">ONBOARDING / WIZARDS"</string>
+    <string name="left_menu_login">LOGIN"</string>
+    <string name="left_menu_forgot_password">FORGOT PASSWORD"</string>
+    <string name="left_menu_register">REGISTER"</string>
+    <string name="left_menu_login_register">LOGIN / REGISTER"</string>
+    <string name="left_menu_search">SEARCH"</string>
+    <string name="left_menu_categories">CATEGORIES"</string>
+    <string name="left_menu_image_gallery">IMAGE GALLERY"</string>
+    <string name="left_menu_info">INFO</string>
+    <string name="left_menu_subscribe">SUBSCRIBE</string>
+    <string name="left_menu_warning">WARNING</string>
+    <string name="left_menu_dialogs">DIALOGS</string>
+    <string name="left_menu_radio">RADIO</string>
+    <string name="left_menu_radio_left">RADIO LEFT</string>
+    <string name="left_menu_radio_right">RADIO RIGHT</string>
+    <string name="left_menu_checkbox">CHECKBOX</string>
+    <string name="left_menu_checkbox_left">CHECKBOX LEFT</string>
+    <string name="left_menu_checkbox_right">CHECKBOX RIGHT</string>
+    <string name="left_menu_seek">SEEK</string>
+    <string name="left_menu_progress">PROGRESS</string>
+    <string name="left_menu_drop_down">DROPDOWN</string>
+    <string name="left_menu_progress_bar">PROGRESS BAR</string>
+    <string name="left_menu_small_components">SMALL COMPONENTS</string>
+    <string name="left_menu_toggle">TOGGLE</string>
+    <string name="left_menu_splash">SPLASH</string>
+    <string name="left_menu_splash_one">SPLASH 1</string>
+    <string name="left_menu_splash_two">SPLASH 2</string>
+    <string name="left_menu_loader">LOADERS</string>
+    <string name="left_menu_loader_item">LOADERS</string>
+
+
+    <!-- List - Item details  -->
+    <string name="item_details_photos">Photos</string>
+    <string name="item_details_followers">Followers</string>
+    <string name="item_details_following">Following</string>
+    <string name="add_as_friend">ADD AS FRIEND</string>
+
+    <!-- Card Follow  -->
+    <string name="card_follow_title">APP LOVERS \nWORLD GROUP</string>
+    <string name="card_follow_subtitle">5 members</string>
+    <string name="card_follow_follow">Follow</string>
+
+    <!-- Card profile  -->
+    <string name="card_profile_subtitle_1">Roident est duis duis sit occaecat ea eiusmod laboris mollit ullamco mollit nisi veniam.</string>
+    <string name="card_profile_subtitle_2">Aboris exercitation veniam laboris incididunt duis aliquip.</string>
+    <string name="card_profile_subtitle_3">Llamco nisi sunt velit quis sint anim nisi sunt Lorem in.</string>
+    <string name="card_profile_subtitle_4">Ulpa aliqua sint incididunt consectetur deserunt excepteur voluptate non excepteur et esse labore.</string>
+    <string name="card_profile_subtitle_5">Labore dolor in sint.</string>
+    <string name="card_profile_subtitle_6">St quis consequat laboris pariatur magna.</string>
+    <string name="card_profile_subtitle_7">Iusmod enim sunt adipisicing ex enim id reprehenderit eiusmod quis non ut.</string>
+    <string name="card_profile_subtitle_8">Cupidatat voluptate do qui pariatur.</string>
+    <string name="card_profile_subtitle_9">Cupidatat voluptate do qui pariatur.</string>
+    <string name="card_profile_subtitle_10">Met do mollit quis ex nostrud.</string>
+    <string name="card_profile_subtitle_11">Tempor do minim eiusmod aliquip tempor reprehenderit aliquip nulla consectetur qui.</string>
+
+    <!-- Card location  -->
+    <string name="card_location_title_1">Merry Stout Bar</string>
+    <string name="card_location_title_2">Copper Outlaw Pub</string>
+    <string name="card_location_title_3">Big Vibes Ale House</string>
+    <string name="card_location_title_4">Crooked Rabbit Hideout</string>
+    <string name="card_location_subtitle">Amazing New Place</string>
+    <string name="card_location_place_1">Phoenix Road 45</string>
+    <string name="card_location_place_2">Lucinda Road 32</string>
+    <string name="card_location_place_3">Doris Way 18</string>
+    <string name="card_location_place_4">Fox Ridge Boulevard 25</string>
+    <string name="card_location_place_5">Percy Court 14</string>
+
+
+    <!-- Drag Swipe Expand  -->
+    <string name="drag_swipe_expand_about">About</string>
+    <string name="drag_swipe_expand_subtitle_1">Roident est duis duis sit occaecat ea eiusmod laboris mollit ullamco mollit nisi veniam.</string>
+    <string name="drag_swipe_expand_subtitle_2">Aboris exercitation veniam laboris incididunt duis aliquip.</string>
+    <string name="drag_swipe_expand_subtitle_3">Llamco nisi sunt velit quis sint anim nisi sunt Lorem in.</string>
+    <string name="drag_swipe_expand_subtitle_4">Ulpa aliqua sint incididunt consectetur deserunt excepteur voluptate non excepteur et esse labore.</string>
+    <string name="drag_swipe_expand_subtitle_5">Labore dolor in sint.</string>
+    <string name="drag_swipe_expand_subtitle_6">St quis consequat laboris pariatur magna.</string>
+    <string name="drag_swipe_expand_subtitle_7">Iusmod enim sunt adipisicing ex enim id reprehenderit eiusmod quis non ut.</string>
+    <string name="drag_swipe_expand_subtitle_8">Cupidatat voluptate do qui pariatur.</string>
+    <string name="drag_swipe_expand_subtitle_9">Cupidatat voluptate do qui pariatur.</string>
+    <string name="drag_swipe_expand_subtitle_10">Met do mollit quis ex nostrud.</string>
+    <string name="drag_swipe_expand_subtitle_11">Tempor do minim eiusmod aliquip tempor reprehenderit aliquip nulla consectetur qui.</string>
+    <string name="drag_swipe_expand_removed_item_text">Item removed! (position = %1$d)</string>
+    <string name="drag_swipe_expand_clicked_item_text">Item clicked! (position = %1$d)</string>
+
+
+    <!--  Parallax  -->
+    <string name="parallax">Parallax</string>
+    <string name="parallax_title">PARALLAX EFFECT</string>
+    <string name="parallax_header">PARALLAX HEADER</string>
+    <string name="parallax_material_design_ui_template_app">Material Design UI \nTemplate App</string>
+    <string name="parallax_follow">Follow</string>
+
+    <!-- Wizard  -->
+
+    <string name="wizzard_intro_1_title">"SUPERB \nTHEME \nAPP"</string>
+    <string name="wizzard_intro_1_text">"Finished components and \nlayouts - ready to use!"</string>
+    <string name="wizzard_intro_2_title">"For Developers"</string>
+    <string name="wizzard_intro_2_text">"Save hours of developing.Tons of \nfunctional components."</string>
+    <string name="wizzard_intro_3_title">"For Designers"</string>
+    <string name="wizzard_intro_3_text">"Endless possibilities. Combine \nlayouts as you wish."</string>
+
+    <string name="wizard_title_one">Superb App Theme</string>
+    <string name="wizard_subtitle_one">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="wizard_title_two">For Developers</string>
+    <string name="wizard_subtitle_two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="wizard_title_three">And Designers</string>
+    <string name="wizard_subtitle_three">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+
+    <!-- Login and Register  -->
+    <string name="login_toolbar">LOGIN</string>
+    <string name="login_title_text">HELLO \nTHERE, \nWELCOME.</string>
+    <string name="login_placeholder_one">Email</string>
+    <string name="login_placeholder_two">Password</string>
+    <string name="login_input_error_email">Please enter valid email address</string>
+    <string name="login_input_error_password">Password is blank!</string>
+    <string name="login_submit_button">LOG IN</string>
+    <string name="login_button_label">FORGOT PASSWORD?</string>
+    <string name="login_button_text">GET NEW!</string>
+    <string name="login_sign_up_label">DON\'T HAVE AN ACCOUNT?</string>
+    <string name="login_sign_up_button_text">SIGN UP!</string>
+
+    <!-- Forgot password   -->
+    <string name="forgot_password_toolbar">FORGOT PASSWORD</string>
+    <string name="forgot_password_title">FORGOT\nPASSWORD?\nDON\'T\nWORRY.</string>
+    <string name="forgot_password_placeholder_one">Email</string>
+    <string name="forgot_password_input_error_email">Please enter valid email address</string>
+    <string name="forgot_password_submit_button">RESET PASSWORD</string>
+    <string name="forgot_password_button_label">HAVE AN ACCOUNT?</string>
+    <string name="forgot_password_button_text">LOG IN!</string>
+    <string name="forgot_sign_up_label">DON\'T HAVE AN ACCOUNT?</string>
+    <string name="forgot_sign_up_button_text">RESET PASSWORD!</string>
+
+    <!-- Register Item   -->
+    <string name="register_toolbar">REGISTER</string>
+    <string name="register_title">WELCOME,\nSIGN UP\nNOW.</string>
+    <string name="register_placeholder_user">Username</string>
+    <string name="register_placeholder_email">Email</string>
+    <string name="register_placeholder_password">Password</string>
+    <string name="register_placeholder_zip_code">Zip Code</string>
+    <string name="register_placeholder_country">Country</string>
+    <string name="register_submit_button">SIGN UP</string>
+    <string name="register_account_label">ALREADY HAVE AN ACCOUNT?</string>
+    <string name="register_account_button_text">LOG IN!</string>
+    <string name="register_input_error_username">Please enter valid username</string>
+    <string name="register_input_error_email">Please enter valid email address</string>
+    <string name="register_input_error_password">Password is blank!</string>
+    <string name="register_input_error_zip_code">Please enter valid zip code</string>
+    <string name="register_input_error_country">Please enter valid country</string>
+
+    <!-- Search  -->
+    <string name="search_placeholder">Type here</string>
+    <string name="search_results">%d Results</string>
+
+    <!-- Info Dialog -->
+    <string name="info_dialog_title">Dialog info</string>
+    <string name="info_dialog_subtitle">This is info dialog</string>
+    <string name="info_dialog_description">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</string>
+    <string name="info_dialog_positive_button_text">OK</string>
+    <string name="info_dialog_negative_button_text">CANCEL</string>
+
+    <!-- Subscribe Dialog -->
+    <string name="subscribe_dialog_title">Dialog info</string>
+    <string name="subscribe_dialog_subtitle">Subscribe for more</string>
+    <string name="subscribe_dialog_input_placeholder">Email</string>
+    <string name="subscribe_dialog_positive_button_text">JOIN NOW</string>
+    <string name="subscribe_dialog_negative_button_text">CANCEL</string>
+    <string name="subscribe_dialog_success">Success</string>
+
+    <!-- Warning Dialog -->
+    <string name="warning_dialog_title">DIALOG WARNING</string>
+    <string name="warning_dialog_subtitle">WARNING!</string>
+    <string name="warning_dialog_description">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</string>
+    <string name="warning_dialog_positive_button_text">JOIN NOW</string>
+
+    <!-- Small components -->
+    <string name="dropdown_settings">Settings</string>
+    <string name="dropdown_friends">Friends</string>
+    <string name="dropdown_locations">Locations</string>
+    <string name="dropdown_text">Click on this icon in app bar \n(top right corner)</string>
+    <string name="toggle_text_1">Switch Component</string>
+    <string name="toggle_text_2">Switch Component Active</string>
+
+    <!-- Image Gallery   -->
+    <string name="image_gallery_subtitle_template">%s PHOTOS</string>
+    <string name="image_gallery_animals">ANIMALS</string>
+    <string name="image_gallery_mountains">MOUNTAINS</string>
+    <string name="image_gallery_cities">CITIES</string>
+    <string name="image_gallery_water">WATER</string>
+    <string name="image_gallery_monkey">MONKEY</string>
+    <string name="image_gallery_eyes">EYES</string>
+    <string name="image_gallery_rivers">RIVERS</string>
+    <string name="image_gallery_laugh">LAUGH</string>
+
+    <!-- Dialog mail chimp   -->
+    <string name="dialog_subscribe_title">DIALOG SUBSCRIBE</string>
+    <string name="dialog_subscribe_color_title">SUBSCRIBE \nFOR MORE.</string>
+    <string name="dialog_subscribe_hint">Email</string>
+    <string name="dialog_subscribe_submit">SUBMIT</string>
+    <string name="dialog_subscribe_cancel">CANCEL</string>
+    <string name="dialog_subscribe_error">Please enter valid email address</string>
+
+    <!-- Small components   -->
+    <string name="small_component_radio_title">RADIO BUTTONS</string>
+    <string name="small_component_checkbox_title">CHECKBOX</string>
+    <string name="small_component_progress_bar">Progress Bar</string>
+    <string name="small_component_seek_bar">SEEK BAR</string>
+    <string name="small_component_toggle">TOGGLE</string>
+
+    <!--Progress bar-->
+    <string name="horizontal_progress_bar">HORIZONTAL PROGRESS BAR</string>
+    <string name="horizontal_progress_bar_indeterminate">HORIZONTAL PROGRESS BAR INDETERMINATE</string>
+    <string name="circular_progress_bar">CIRCULAR PROGRESS BAR</string>
+    <string name="circular_progress_bar_indeterminate">CIRCULAR PROGRESS BAR INDETERMINATE</string>
+
+    <!-- Gallery  -->
+    <string name="image_gallery_categories_title">IMAGE GALLERY CATEGORIES</string>
+    <string name="image_gallery_category_title">IMAGE GALLERY CATEGORY</string>
+    <string name="image_gallery_full_image">FULL IMAGE</string>
+
+    <!-- Tab navigation  -->
+    <string name="tabs_line_indicator_title">LINE INDICATOR</string>
+    <string name="tabs_round_indicator_title">ROUND INDICATOR</string>
+    <string name="tab_img_post">IMG POST</string>
+    <string name="tab_rate">RATE</string>
+    <string name="tab_follow">FOLLOW</string>
+    <string name="tab_profile">PROFILE</string>
+    <string name="tab_others">OTHERS</string>
+    <string name="tab_another">ANOTHER</string>
+
+    <!-- Loader   -->
+    <string name="loader_toolbar">LOADER</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="an_error_occured_while_loading_data">An error occured while loading data</string>
+</resources>

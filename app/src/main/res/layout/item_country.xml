@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCountryName"
+            tools:text="Netherlands"
+            style="@style/TextStyleMedium" />
+
+        <TextView
+            android:id="@+id/tvTotalCases"
+            tools:text="80881"
+            style="@style/TextStyleMedium" />
+
+        <TextView
+            android:id="@+id/tvNewCases"
+            tools:text="1236"
+            style="@style/TextStyleMedium" />
+
+        <TextView
+            android:id="@+id/tvTotalDeaths"
+            tools:text="3226"
+            style="@style/TextStyleMedium" />
+
+        <TextView
+            android:id="@+id/tvNewDeaths"
+            tools:text="13"
+            style="@style/TextStyleMedium"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tvTotalRecovered"
+            tools:text="68703"
+            style="@style/TextStyleMedium" />
+
+    </LinearLayout>
+</layout>

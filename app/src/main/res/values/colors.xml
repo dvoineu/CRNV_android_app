@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_status_bar">#99264D</color>
+    <color name="colorTextDark">#f77062</color>
+
+    <color name="colorPrimaryAlpha">#e6f77062</color>
+    <color name="colorPrimaryDarkAlpha">#e6fe5196</color>
+
+    <color name="colorTextGrey">#878787</color>
+    <color name="colorTextGrayLighter">#d0d0d0</color>
+
+    <color name="backgroundColor">#fafafa</color>
+    <color name="backgroundColorWhite">#ffffff</color>
+    <color name="backgroundColorSwipe">#fafbfb</color>
+    <color name="backgroundColorExpandable">#f9fafb</color>
+
+    <color name="bg_item_normal_state">#fff0f0f0</color>
+    <color name="bg_group_item_normal_state">#ffddffdd</color>
+    <color name="bg_group_item_normal_pressed_state">#ff99cc99</color>
+    <color name="bg_group_item_expanded_state">#ff88dd88</color>
+    <color name="bg_group_item_expanded_pressed_state">#ff99cc99</color>
+    <color name="bg_swipe_item_neutral">@android:color/transparent</color>
+
+    <color name="colorDivider">#e3e9ec</color>
+    <color name="colorTabDivider">#4D000000</color>
+
+    <color name="expandable_item_indicator_color">#42000000</color>
+    <color name="colorRoundTabIndicator">#33ffffff</color>
+
+    <color name="navigation_item_color">#CC000000</color>
+
+    <color name="cards_over_header_color">#18000000</color>
+    <color name="parallax_header_color">#11000000</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorInputError">#FFFFFF</color>
+    <color name="light_green_main">#8CC63F</color>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.dvoineu.crnvirus.view.DashboardFragment"
+        android:label="Dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_aboutCovid19"
+            app:destination="@id/aboutCovid19Fragment" />
+        <action
+            android:id="@+id/action_dashboard_to_advices"
+            app:destination="@id/advicesFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_symptoms"
+            app:destination="@id/symptomsFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_faq"
+            app:destination="@id/faqFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_checkSelf"
+            app:destination="@id/checkSelfFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_usefulResouces"
+            app:destination="@id/usefulResouces" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutCovid19Fragment"
+        android:name="com.dvoineu.crnvirus.view.dashboard_fragments.AboutCovid19Fragment"
+        android:label="About COVID-19"
+        tools:layout="@layout/fragment_about_covid19" />
+    <fragment
+        android:id="@+id/advicesFragment"
+        android:name="com.dvoineu.crnvirus.view.dashboard_fragments.AdvicesFragment"
+        android:label="10 Advices"
+        tools:layout="@layout/fragment_advices" />
+    <fragment
+        android:id="@+id/symptomsFragment"
+        android:name="com.dvoineu.crnvirus.view.dashboard_fragments.SymptomsFragment"
+        android:label="Symptoms"
+        tools:layout="@layout/fragment_symptoms" />
+    <fragment
+        android:id="@+id/faqFragment"
+        android:name="com.dvoineu.crnvirus.view.dashboard_fragments.FaqFragment"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_faq" />
+    <fragment
+        android:id="@+id/checkSelfFragment"
+        android:name="com.dvoineu.crnvirus.view.dashboard_fragments.CheckSelfFragment"
+        android:label="Self-Check"
+        tools:layout="@layout/fragment_check_self" />
+    <fragment
+        android:id="@+id/usefulResouces"
+        android:name="com.dvoineu.crnvirus.view.dashboard_fragments.UsefulResourcesFragment"
+        android:label="Useful Resources"
+        tools:layout="@layout/fragment_useful_resources" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.dvoineu.crnvirus.view.MapFragment"
+        android:label="Global Map" />
+    <fragment
+        android:id="@+id/terms_of_use"
+        android:name="com.dvoineu.crnvirus.view.TermsOfUseFragment"
+        android:label="Terms Of Use" />
+    <fragment
+        android:id="@+id/statistic"
+        android:name="com.dvoineu.crnvirus.view.StatisticsFragment"
+        android:label="Statistics">
+        <action
+            android:id="@+id/action_statistic_to_countryDetailFragment"
+            app:destination="@+id/countryDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryDetailFragment"
+        android:name="com.dvoineu.crnvirus.view.CountryDetailFragment"
+        android:label="Statistic by Country">
+        <argument
+            android:name="countryUuid"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard_24dp"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/statistic"
+        android:icon="@drawable/ic_statistic"
+        android:title="Statistic" />
+
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_globe"
+        android:title="Global Map" />
+
+    <item
+        android:id="@+id/terms_of_use"
+        android:icon="@drawable/ic_terms_of_use"
+        android:title="Terms of Use" />
+
+
+</menu>
